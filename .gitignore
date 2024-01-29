@@ -1,0 +1,41 @@
+# python
+ai/data/*
+
+# dependencies
+web/node_modules
+web/.pnp
+.pnp.js
+web/.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+web/.next/
+web/out/
+
+# production
+web/build
+
+# misc
+web/.DS_Store
+web.*.pem
+
+# debug
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# firebase
+firebase*.json
